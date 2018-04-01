@@ -12,6 +12,7 @@ namespace AutomationExam
         public int Order { get; set; }
         public float Price { get; set; }
         public string Name { get; set; }
+        //nueva
 
         public static List<Product> ToProductList(IEnumerable<IWebElement> list)
         {
